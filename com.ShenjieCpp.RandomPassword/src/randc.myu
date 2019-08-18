@@ -1,0 +1,88 @@
+fn osz(arr)
+for(x; arr){
+  syso(x)
+}
+end fn
+
+
+fn iarr(arr, flag, i)
+f(flag){
+  s a=1
+}else{
+  s a=0
+}
+sssz(arr, i, a)
+end fn
+
+
+fn shitp(arr, parr, n)
+s-(n, 1, n1)
+s i=0
+s sum=0
+for(i; n1){
+  sgsz(arr, i, a)
+  s+(a, sum)
+  s+(1, i)
+}
+f(sum==0){
+  s sum=1
+}
+s i=0
+s sumt=0
+for(i; n1){
+  sgsz(arr, i, a)
+  s+(a, sumt)
+  s/(sumt, sum, true, a)
+  sssz(parr, i, a)
+  s+(1, i)
+}
+sssz(parr, n1, 2)
+end fn
+
+
+fn hitp(parr)
+s range=10000
+s p
+sran(1, range, a)
+s/(a, range, true, p)
+s i=0
+w(true){
+  sgsz(parr, i, a)
+  f(p&lt;=a){
+    break
+  }
+  s+(1, i)
+}
+sss r=i
+end fn
+
+
+fn rstr(arr, n)
+  s str=""
+  sgsz(arr, 0, a)
+  f(a!=0){
+    ss(str+sss.digit+sss.digit, str)
+  }
+  sgsz(arr, 1, a)
+  f(a!=0){
+    ss(str+sss.upper, str)
+  }
+  sgsz(arr, 2, a)
+  f(a!=0){
+    ss(str+sss.lower, str)
+  }
+  slg(str, len)
+  f(len==0){
+    ss(sss.digit+sss.digit+sss.upper+sss.lower, str)
+    slg(str, len)
+  }
+  sss r=""
+  s-(len, 1, len1)
+  for(1; n){ 
+    sran(0, len1, a)
+    s+(a, 1, a1)
+    ssg(str, a, a1, a)
+    ss(sss.r+a, sss.r)
+  }
+end fn
+

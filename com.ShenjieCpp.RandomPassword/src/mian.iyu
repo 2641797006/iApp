@@ -1,0 +1,171 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="CardView">
+<ppt>width=-1
+height=70dp
+//background=#4caf50
+//background=#47ffa1
+background=#26de96
+app_CardElevation=3dp
+
+</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=Random Password - 1.2
+textColor=#ffffff
+textSize=20sp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="8" did="11" type="TextView">
+<ppt>width=-1
+height=-2
+text=密码长度（0~999）
+textSize=12sp
+textColor=#4caf50</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="EditText">
+<ppt>width=-1
+height=40dp
+singleLine=true
+inputType=number
+text=16
+padding=0
+//layout_margin=-3.5dp
+maxLength=3
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="17" did="11" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="CheckBox">
+<ppt>width=-2
+height=-2
+text=0~9    
+
+</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="CheckBox">
+<ppt>width=-2
+height=-2
+text=A~Z    </ppt>
+<event></event>
+</View>
+<View id="20" did="17" type="CheckBox">
+<ppt>width=-2
+height=-2
+text=a~z    
+</ppt>
+<event></event>
+</View>
+<View id="22" did="11" type="Button">
+<ppt>width=-1
+height=-2
+text=生成密码
+layout_marginTop=10dp
+layout_marginBottom=10dp
+
+</ppt>
+<event><eventItme type="clicki">s n=3
+nsz(n, arr)
+nsz(n, parr)
+
+ug(18, "checked", digit)
+ug(19, "checked", upper)
+ug(20, "checked", lower)
+ug(12, "text", ns)
+
+slg(ns, len)
+f(len==0){
+  s a="请输入密码长度"
+  tw(a)
+  endcode
+}
+sl(ns, ";", va)
+sgsz(va, 0, wdl)
+f(wdl==0){
+  us(23, "editable", true)
+  us(23, "text", "")
+  us(23, "editable", false)
+  endcode
+}
+
+//fn randc.osz(va)
+
+fn randc.iarr(arr, digit, 0)
+fn randc.iarr(arr, upper, 1)
+fn randc.iarr(arr, lower, 2)
+
+fn randc.rstr(arr, wdl)
+//s str=sss.r
+us(23, "editable", true)
+us(23, "text", sss.r)
+us(23, "editable", false)
+//syso(str)
+</eventItme></event>
+</View>
+<View id="23" did="11" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+editable=false
+singleLine=true
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="24" did="11" type="Button">
+<ppt>width=-1
+height=-2
+text=复制
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event><eventItme type="clicki">ug(23, "text", str)
+sxb(str)
+s a="随机密码已复制到剪切板"
+tw(a)</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">sss r
+sss lower="abcdefghijklmnopqrstuvwxyz"
+sss upper="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+sss digit="0123456789"
+
+
+tw("made by 神界·24k")
+
+uycl("#00cd7e", true)</eventItme></UIEventset>

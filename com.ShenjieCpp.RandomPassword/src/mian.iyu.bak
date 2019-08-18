@@ -1,0 +1,67 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="CardView">
+<ppt>width=-1
+height=70dp
+background=#4caf50
+app_CardElevation=3dp
+
+</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=Random Password
+textColor=#ffffff
+textSize=20sp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="7" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none
+layout_margin=10dp
+</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-1
+height=-2
+text=密码长度（1~100）
+textSize=12sp
+textColor=#4caf50</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="7" type="TextView">
+<ppt>width=-1
+height=-2
+text=密码长度（1~100）
+textSize=12sp
+textColor=#4caf50</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">sss main_color=#4caf50</eventItme></UIEventset>

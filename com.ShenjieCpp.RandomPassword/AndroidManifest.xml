@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>RandomPWD</title>
+<icon>icon.png</icon>
+<packageName>com.ShenjieCpp.RandomPassword</packageName>
+<versionName>1.3</versionName>
+<versionint>7</versionint>
+<sdk>15</sdk>
+<yuv>3</yuv>
+<remark>应用备注📝[滑稽]</remark>
+<Permissions>android.permission.READ_EXTERNAL_STORAGE</Permissions>
+<createTime>2019-08-05 14:35:30</createTime>
+<upTime>2019-08-05 14:35:30</upTime>
